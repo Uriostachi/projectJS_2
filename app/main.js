@@ -28,9 +28,9 @@ function initializeRouter() {
         AddController.show();
     });
 
-    app.mvc.router.add('/manage', () => {
-        let ManageController = new Manage();
-        ManageController.show();
+    app.mvc.router.add('/edit', () => {
+        let ManageController = new Add();
+        ManageController.showList();
     });
 
     app.mvc.router.check().addUriListener();

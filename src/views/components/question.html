@@ -1,69 +1,76 @@
-<div>
-    <div class="form-row">
-        <div class="form-group col-md-6 mx-auto">
-            <input type="text" class="form-control" placeholder="Question">
+<form action="">
+    <div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input type="text" name="title" class="form-control" placeholder="Question">
+            </div>
+            <div class="form-group col-md-6">
+                <input type="text" name="theme" class="form-control" placeholder="Theme">
+            </div>
         </div>
-    </div>
+        
     
-
-    <div class="form-row">
-        <div class="form-row col-md-6 align-items-center">
-            <div class="form-group col-md-8">
-                <input type="text" class="form-control form-check form-check-inline"  placeholder="Reponse 1">            
+        <div class="form-row">
+            <div class="form-row col-md-6 align-items-center">
+                <div class="form-group col-md-8">
+                    <input type="text" name="answer1" class="form-control form-check form-check-inline"  placeholder="Reponse 1">            
+                </div>
+                <div class="form-group custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="answer1_true" name="answer1State" value="true" class="custom-control-input">
+                    <label class="custom-control-label" for="answer1_true">Vrai</label>
+                </div>
+                <div class="form-group custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="answer1_false" name="answer1State" value="false" class="custom-control-input">
+                    <label class="custom-control-label" for="answer1_false">Faux</label>
+                </div>
             </div>
-            <div class="form-group custom-control custom-radio custom-control-inline">
-                <input type="radio" id="question1_true" name="question1" class="custom-control-input">
-                <label class="custom-control-label" for="question1_true">Vrai</label>
+    
+            <div class="form-row col-md-6 align-items-center ml-2">
+                <div class="form-group col-md-8">
+                    <input type="text" name="answer2" class="form-control form-check form-check-inline"  placeholder="Reponse 2">            
+                </div>
+                <div class="form-group custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="answer2_true" name="answer2State" value="true" class="custom-control-input">
+                    <label class="custom-control-label" for="answer2_true">Vrai</label>
+                </div>
+                <div class="form-group custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="answer2_false" name="answer2State" value="false" class="custom-control-input">
+                    <label class="custom-control-label" for="answer2_false">Faux</label>
+                </div>
             </div>
-            <div class="form-group custom-control custom-radio custom-control-inline">
-                <input type="radio" id="question1_false" name="question1" class="custom-control-input">
-                <label class="custom-control-label" for="question1_false">Faux</label>
             </div>
         </div>
-
-        <div class="form-row col-md-6 align-items-center ml-2">
-            <div class="form-group col-md-8">
-                <input type="text" class="form-control form-check form-check-inline"  placeholder="Reponse 2">            
+    
+        <div class="form-row">
+            <div class="form-row col-md-6 align-items-center">
+                <div class="form-group col-md-8">
+                    <input type="text" name="answer3" class="form-control form-check form-check-inline"  placeholder="Reponse 3">            
+                </div>
+                <div class="form-group custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="answer3_true" name="answer3State" value="true" class="custom-control-input">
+                    <label class="custom-control-label" for="answer3_true">Vrai</label>
+                </div>
+                <div class="form-group custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="answer3_false" name="answer3State" value="false" class="custom-control-input">
+                    <label class="custom-control-label" for="answer3_false">Faux</label>
+                </div>
             </div>
-            <div class="form-group custom-control custom-radio custom-control-inline">
-                <input type="radio" id="question2_true" name="question2" class="custom-control-input">
-                <label class="custom-control-label" for="question2_true">Vrai</label>
+    
+            <div class="form-row col-md-6 align-items-center ml-2">
+                <div class="form-group col-md-8">
+                    <input type="text" name="answer4" class="form-control form-check form-check-inline"  placeholder="Reponse 4">            
+                </div>
+                <div class="form-group custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="answer4_true" name="answer4State" value="true" class="custom-control-input">
+                    <label class="custom-control-label" for="answer4_true">Vrai</label>
+                </div>
+                <div class="form-group custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="answer4_false" name="answer4State" value="false" class="custom-control-input">
+                    <label class="custom-control-label" for="answer4_false">Faux</label>
+                </div>
             </div>
-            <div class="form-group custom-control custom-radio custom-control-inline">
-                <input type="radio" id="question2_false" name="question2" class="custom-control-input">
-                <label class="custom-control-label" for="question2_false">Faux</label>
-            </div>
-        </div>
         </div>
     </div>
 
-    <div class="form-row">
-        <div class="form-row col-md-6 align-items-center">
-            <div class="form-group col-md-8">
-                <input type="text" class="form-control form-check form-check-inline"  placeholder="Reponse 3">            
-            </div>
-            <div class="form-group custom-control custom-radio custom-control-inline">
-                <input type="radio" id="question3_true" name="question3" class="custom-control-input">
-                <label class="custom-control-label" for="question3_true">Vrai</label>
-            </div>
-            <div class="form-group custom-control custom-radio custom-control-inline">
-                <input type="radio" id="question3_false" name="question3" class="custom-control-input">
-                <label class="custom-control-label" for="question3_false">Faux</label>
-            </div>
-        </div>
-
-        <div class="form-row col-md-6 align-items-center ml-2">
-            <div class="form-group col-md-8">
-                <input type="text" class="form-control form-check form-check-inline"  placeholder="Reponse 4">            
-            </div>
-            <div class="form-group custom-control custom-radio custom-control-inline">
-                <input type="radio" id="question4_true" name="question4" class="custom-control-input">
-                <label class="custom-control-label" for="question4_true">Vrai</label>
-            </div>
-            <div class="form-group custom-control custom-radio custom-control-inline">
-                <input type="radio" id="question4_false" name="question4" class="custom-control-input">
-                <label class="custom-control-label" for="question4_false">Faux</label>
-            </div>
-        </div>
-    </div>
-</div>
+    <button type="submit" class="btn btn-info addQuestion">Ajouter la question</button>
+</form>
